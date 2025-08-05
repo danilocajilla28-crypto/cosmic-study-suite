@@ -60,7 +60,7 @@ const Profile = () => {
                 <Label htmlFor="student-id">Student ID</Label>
                 <Input 
                   id="student-id" 
-                  value="2021-00123" 
+                  defaultValue="2021-00123" 
                   readOnly 
                   className="bg-black/20 border-purple-500/30"
                 />
@@ -69,7 +69,7 @@ const Profile = () => {
                 <Label htmlFor="email">Email</Label>
                 <Input 
                   id="email" 
-                  value="john.doe@university.edu" 
+                  defaultValue="john.doe@university.edu" 
                   className="bg-black/20 border-purple-500/30"
                 />
               </div>
@@ -77,7 +77,7 @@ const Profile = () => {
                 <Label htmlFor="phone">Phone</Label>
                 <Input 
                   id="phone" 
-                  value="+1 (555) 123-4567" 
+                  defaultValue="+1 (555) 123-4567" 
                   className="bg-black/20 border-purple-500/30"
                 />
               </div>
@@ -85,7 +85,7 @@ const Profile = () => {
                 <Label htmlFor="year-level">Year Level</Label>
                 <Input 
                   id="year-level" 
-                  value="3rd Year" 
+                  defaultValue="3rd Year" 
                   className="bg-black/20 border-purple-500/30"
                 />
               </div>
